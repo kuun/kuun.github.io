@@ -23,7 +23,6 @@ tar xvf gmssl_openssl_1.1_b2024_x64_1.tar.gz -C /usr/local
 3. 参考国密网编译nginx是对openssl的修改，将`bundle/nginx-1.15.8/auto/lib/openssl/conf`中的所有`$OPENSSL/.openssl`修改为`$OPENSSL`。
 
 4. 编译并安装
-
 ```
 ./configure \
 --without-http_gzip_module \
